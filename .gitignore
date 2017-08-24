@@ -41,3 +41,7 @@ yarn-error.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#pre and post processed images for the gallery
+/src/assets/images/gallery-pre-processed
+/src/assets/images/gallery-post-processed
