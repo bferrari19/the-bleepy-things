@@ -1,0 +1,26 @@
+section{
+  border: 2px dashed black;
+  margin: 20px 0px;
+  display: inline-block;
+  width: 100%;
+}
+h1{
+  background: white;
+  position: relative;
+  text-align: center;
+  margin: 0px auto;
+  top: -18px;
+  width: 150px;
+  font-size: xx-large;
+}
+h2{
+  margin: 0px;
+}
+div{
+  position: relative;
+  top: -18px;
+  margin-left: 10px
+}
+p{
+  margin-bottom: 0px;
+}

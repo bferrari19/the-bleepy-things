@@ -1,0 +1,54 @@
+section{
+  border: 2px dashed black;
+  margin: 20px 0px;
+  display: inline-block;
+  width: 100%;
+}
+h1{
+  background: white;
+  position: relative;
+  text-align: center;
+  margin: 0px auto;
+  top: -18px;
+  width: 150px;
+  font-size: xx-large;
+}
+div{
+  position: relative;
+  top: -18px;
+  margin: 0 auto;
+  display: flex;
+}
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+ul li{
+  float: left;
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin: 10px;
+  height: 100px;
+  width: 200px;
+}
+p{
+  margin: 0px;
+}
+.show-date{
+  font-weight: bolder;
+  font-size: x-large;
+  color: deeppink;
+}
+.show-place{
+  font-weight: bold;
+  font-size: large;
+  color: dimgrey;
+}
+@media screen and (max-width: 800px) {
+  ul{
+    display: grid;
+  }
+}

@@ -1,0 +1,18 @@
+footer{
+  color: white;
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.newsletter{
+  width: 60%;
+  margin: 0px auto;
+  padding: 20px 0px;
+
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}

@@ -1,0 +1,11 @@
+<section>
+  <h1>{{title}}</h1>
+  <div>
+    <ul>
+      <li *ngFor="let show of shows">
+        <p class="show-date">{{show.date | date}}</p>
+        <p class="show-place">{{show.place}}</p>
+      </li>
+    </ul>
+  </div>
+</section>
