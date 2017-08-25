@@ -1,4 +1,4 @@
-<nav id="navBar">
+<nav id="navBar" *ngIf="showMenu">
   <ul class="navigation">
     <li><a class="mobileMenu" href="javascript:void(0);" (click)="menuClick($event)" (blur)="menuClick($event)">Menu<span class="icon">&#9776;</span></a></li>
     <li><a routerLink="/" class="menuItem">Home</a></li>

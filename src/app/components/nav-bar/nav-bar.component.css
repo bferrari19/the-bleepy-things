@@ -23,6 +23,10 @@ li a:hover {
   background-color: slategray;
 }
 
+.display-none{
+  display:none;
+}
+
 .navigation a{
   display: block;
   color: white;

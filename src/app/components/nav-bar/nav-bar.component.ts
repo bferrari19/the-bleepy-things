@@ -1,4 +1,5 @@
 import { Component, OnInit, Injectable } from '@angular/core';
+import { SharedService } from '../../services/shared-service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -9,9 +10,18 @@ import { Component, OnInit, Injectable } from '@angular/core';
 @Injectable()
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  showMenu = true;
+
+  constructor(private sharedService: SharedService) {
+    console.log('constructor setting the navbar display to: ' + sharedService.showMenu)
+    this.showMenu = sharedService.showMenu;
+  }
 
   ngOnInit() {
+    this.sharedService.menuVisibilityChange.subscribe(value => {
+      console.log('init consructor setting the navbar display to: ' + this.sharedService.showMenu)
+      this.showMenu = value;
+    });
   }
 
   menuClick(event: any) {
