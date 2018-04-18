@@ -12,7 +12,6 @@ export class CalendarEventsListService {
     const key = 'AIzaSyCG2ecf-k8270cLlWrR6meakB6yAN1u8w4';
     const params = new URLSearchParams();
     params.set('key', key);
-    
     return this.http.get(calendarUrl, {search: params});
   }
 

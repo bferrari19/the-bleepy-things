@@ -22,6 +22,8 @@ import { VideosComponent } from './views/videos/videos.component';
 import { PhotosComponent } from './views/photos/photos.component';
 import { MusicComponent } from './views/music/music.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { TicketsComponent } from './views/tickets/tickets.component';
+import { AboutComponent } from './views/about/about.component';
 
 import { Angular2ImageGalleryModule } from '../../node_modules/angular2-image-gallery/angular2imagegallery.module';
 
@@ -38,7 +40,9 @@ import { Angular2ImageGalleryModule } from '../../node_modules/angular2-image-ga
     VideosComponent,
     PhotosComponent,
     MusicComponent,
-    ContactComponent
+    ContactComponent,
+    TicketsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
